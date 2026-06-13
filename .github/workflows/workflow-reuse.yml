@@ -10,7 +10,7 @@ permissions:
 jobs:
   workflow:
     #uses: aldower/dso-templates/.github/workflows/angular.yaml@main
-    uses: julio2019vp/workflow-reuse2/.github/workflows/angular.yaml@main
+    uses: julio2019vp/ec-maven-users-api-jvp/.github/workflows/dockerhubazuretemplate.yaml@main
 
     with:
       IMAGE_NAME: "mi-aplicacion-java"
