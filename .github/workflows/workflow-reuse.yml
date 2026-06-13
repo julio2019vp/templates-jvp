@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   workflow:
-    #uses: aldower/dso-templates/.github/workflows/angular.yaml@main
+    ##uses: aldower/dso-templates/.github/workflows/angular.yaml@main
     uses: julio2019vp/ec-maven-users-api-jvp/.github/workflows/dockerhubazuretemplate.yaml@main
 
     with:
